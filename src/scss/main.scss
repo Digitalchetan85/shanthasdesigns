@@ -14,3 +14,46 @@
         }
     }
 }
+
+#menu-bar {
+    background-color: #fff;
+    box-shadow: 2px 3px 8px #ceced4;
+    .nav-link { 
+        color: #C8252F;
+        font-weight: 500;
+        &:hover {
+            color:#000;
+        }
+        &.active { 
+            color: #000;
+            font-weight: 600;
+        }
+    }
+}
+
+#corporate-gifts { 
+    .card {
+        background-color: #fff;
+        &:hover { 
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+}
+
+#personalized-gifts { 
+    .card {
+        background-color: #fff;
+        &:hover { 
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+}
+
+#customized-gifts { 
+    .card {
+        background-color: #fff;
+        &:hover { 
+            box-shadow: 2px 3px 8px #ceced4;
+        }
+    }
+}
