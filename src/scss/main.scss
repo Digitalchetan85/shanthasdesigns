@@ -62,3 +62,26 @@
 #enquiry {
     background-color: #c0b5b55e;
 }
+
+#footer {
+    background-color: #524f4f;
+    ul {
+        color: #fff;
+        li {
+            padding: 5px 0px;
+            a {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                    color: #dc3545;
+                }
+            }
+        }
+    }
+    .social-link {
+        color: #fff;
+        &:hover {
+            color: #dc3545;
+        }
+    }
+}

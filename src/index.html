@@ -54,7 +54,7 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Corporate Gifts</a>
@@ -248,7 +248,7 @@
     <section id="enquiry" class="pt-5 pb-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 align-self-center">
                     <div class="text-center">
                         <img src="./images/enquiry.png" alt="" class="img-fluid rounded">
                     </div>
@@ -257,31 +257,32 @@
                     <div class="bg-white p-3 rounded">
                         <h2 class="text-center text-danger">Send Us on Enquiry</h2>
                         <form>
-                            <div class="form-floating mb-3">
+                            <div class="form-floating mb-2">
                                 <input type="text" class="form-control" id="username">
                                 <label for="username">User Name</label>
                             </div>
-                            <div class="form-floating mb-3">
+                            <div class="form-floating mb-2">
                                 <input type="email" class="form-control" id="useremail">
                                 <label for="useremail">Email address</label>
                             </div>
-                            <div class="form-floating mb-3">
+                            <div class="form-floating mb-2">
                                 <input type="tel" class="form-control" id="phoneno">
                                 <label for="phoneno">Phone</label>
                             </div>
-                            <div class="form-floating mb-3">
+                            <div class="form-floating mb-2">
                                 <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                                  <option selected>---</option>
                                   <option value="1">Personalized Gifts</option>
                                   <option value="2">Customized Gifts</option>
                                   <option value="3">Corporate Gifts</option>
                                 </select>
                                 <label for="floatingSelect">Select Gifts Category</label>
                               </div>
-                            <!-- <div class="form-floating mb-3">
+                            <!-- <div class="form-floating mb-2">
                                 <input type="text" class="form-control" id="city">
                                 <label for="city">City</label>
                             </div> -->
-                            <div class="form-floating mb-3">
+                            <div class="form-floating mb-2">
                                 <textarea class="form-control" id="floatingTextarea2" style="height: 100px"></textarea>
                                 <label for="floatingTextarea2">Your Requirement</label>
                             </div>
@@ -294,6 +295,48 @@
             </div>
         </div>
     </section>
+
+    <footer id="footer" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="text-center">
+                        <img src="./images/footer-logo.jpg" alt="" class="img-fluid mb-2">
+                        <address class="text-white">
+                            <b>Shanthas Designs & Prints</b><br>
+                            #485, 10th Main, 8th Cross Road, <br>
+                            HAL 3rd Stage, Jeevan Bhima Nagar, <br>
+                            Bangalore - 560 075 
+                        </address>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">Quick Links</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">Giftings</h3>
+                    <ul>
+                        <li><a href="">Corporate Giftings</a></li>
+                        <li><a href="">Personalized Giftings</a></li>
+                        <li><a href="">Customized Giftings</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h3 class="text-white">Social Connect with</h3>
+                    <div class="text-center">
+                        <a href="" class="social-link"><i class="fab fa-facebook-f fs-2 ps-1"></i></a>
+                        <a href="" class="social-link"><i class="fab fa-instagram fs-2 ps-1"></i></a>
+                        <a href="" class="social-link"><i class="fab fa-linkedin-in fs-2 ps-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -315,8 +358,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
-    <script id="__bs_script__">//<![CDATA[
+    <!-- <script id="__bs_script__">//<![CDATA[
         document.write("<script async src='http://HOST:4000/browser-sync/browser-sync-client.js?v=2.26.13'><\/script>".replace("HOST", location.hostname));
-    //]]></script>
+    //]]></script> -->
 </body>
 </html>

@@ -45,3 +45,19 @@
 
 #enquiry {
   background-color: #c0b5b55e; }
+
+#footer {
+  background-color: #524f4f; }
+  #footer ul {
+    color: #fff; }
+    #footer ul li {
+      padding: 5px 0px; }
+      #footer ul li a {
+        color: #fff;
+        text-decoration: none; }
+        #footer ul li a:hover {
+          color: #dc3545; }
+  #footer .social-link {
+    color: #fff; }
+    #footer .social-link:hover {
+      color: #dc3545; }
