@@ -1,0 +1,16 @@
+#top-menu {
+    background-color: #C8252F;
+    .call, .email {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: #000;
+        }
+    }
+    .fa-facebook-f, .fa-instagram, .fa-linkedin-in {
+        color: #fff;
+        &:hover {
+            color: #000;
+        }
+    }
+}
