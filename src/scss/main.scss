@@ -41,10 +41,11 @@
 }
 
 #personalized-gifts { 
+    background-color: #c0b5b55e;
     .card {
         background-color: #fff;
         &:hover { 
-            box-shadow: 2px 3px 8px #ceced4;
+            box-shadow: 2px 3px 8px #c8c8ca;
         }
     }
 }
@@ -56,4 +57,8 @@
             box-shadow: 2px 3px 8px #ceced4;
         }
     }
+}
+
+#enquiry {
+    background-color: #c0b5b55e;
 }

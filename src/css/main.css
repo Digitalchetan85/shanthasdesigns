@@ -29,14 +29,19 @@
     -webkit-box-shadow: 2px 3px 8px #ceced4;
             box-shadow: 2px 3px 8px #ceced4; }
 
-#personalized-gifts .card {
-  background-color: #fff; }
-  #personalized-gifts .card:hover {
-    -webkit-box-shadow: 2px 3px 8px #ceced4;
-            box-shadow: 2px 3px 8px #ceced4; }
+#personalized-gifts {
+  background-color: #c0b5b55e; }
+  #personalized-gifts .card {
+    background-color: #fff; }
+    #personalized-gifts .card:hover {
+      -webkit-box-shadow: 2px 3px 8px #c8c8ca;
+              box-shadow: 2px 3px 8px #c8c8ca; }
 
 #customized-gifts .card {
   background-color: #fff; }
   #customized-gifts .card:hover {
     -webkit-box-shadow: 2px 3px 8px #ceced4;
             box-shadow: 2px 3px 8px #ceced4; }
+
+#enquiry {
+  background-color: #c0b5b55e; }
